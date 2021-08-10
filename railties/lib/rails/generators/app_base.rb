@@ -229,7 +229,7 @@ module Rails
         when "oracle"         then ["ruby-oci8", nil]
         when "postgresql"     then ["pg", ["~> 0.11"]]
         when "frontbase"      then ["ruby-frontbase", nil]
-        when "mysql"          then ["mysql2", ["~> 0.3.13"]]
+        when "mysql"          then ["mysql2", [">= 0.3.13", "< 0.5.0"]]
         when "sqlserver"      then ["activerecord-sqlserver-adapter", nil]
         when "jdbcmysql"      then ["activerecord-jdbcmysql-adapter", nil]
         when "jdbcsqlite3"    then ["activerecord-jdbcsqlite3-adapter", nil]
